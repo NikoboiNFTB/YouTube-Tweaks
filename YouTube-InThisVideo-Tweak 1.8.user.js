@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         YouTube: Move "In this video" panels above playlist
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks/
 // @version      1.8
 // @description  YouTube's new UI fucked it up. Incompetent fools. Probably AI generated code.
 // @match        https://www.youtube.com/*
