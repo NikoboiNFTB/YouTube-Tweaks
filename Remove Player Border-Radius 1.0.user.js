@@ -6,6 +6,7 @@
 // @match        https://*.youtube.com/*
 // @run-at       document-start
 // @grant        none
+// @icon         https://www.youtube.com/s/desktop/ab67e92c/img/favicon_144x144.png
 // ==/UserScript==
 
 (function() {
