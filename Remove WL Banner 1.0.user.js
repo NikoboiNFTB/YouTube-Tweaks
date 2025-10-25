@@ -7,6 +7,7 @@
 // @match        https://www.youtube.com/playlist?list=WL
 // @grant        none
 // @run-at       document-idle
+// @icon         https://www.youtube.com/s/desktop/ab67e92c/img/favicon_144x144.png
 // ==/UserScript==
 
 (function() {
