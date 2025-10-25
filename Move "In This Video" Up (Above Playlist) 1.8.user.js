@@ -5,6 +5,7 @@
 // @description  YouTube's new UI fucked it up. Incompetent fools. Probably AI generated code.
 // @match        https://www.youtube.com/*
 // @grant        none
+// @icon         https://www.youtube.com/s/desktop/ab67e92c/img/favicon_144x144.png
 // ==/UserScript==
 
 (function () {
