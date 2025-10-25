@@ -1,0 +1,28 @@
+! --- YouTube UI & overlays cleanup ---
+
+! Fullscreen grid expand button (top-right in fullscreen)
+youtube.com##button.ytp-fullscreen-grid-expand-button
+
+! Featured channel thumbnails in suggestions/side panels
+||i.ytimg.com/an/*/featured_channel.jpg$image
+
+! Bottom-right overlays: "More from", branding, timely actions
+www.youtube.com##.ytp-overlay-bottom-right, div.iv-branding, ytw-timely-actions-overlay-view-model
+
+! Cards popups and teasers (mid-video info links)
+www.youtube.com##.ytp-cards-button, .ytp-cards-teaser, .ytp-cards-icon
+
+! Playlist button/overlay in fullscreen
+www.youtube.com##.ytp-playlist-menu-button, .ytp-playlist-menu
+
+! SponsorBlock chapters (text + upvote/downvote buttons)
+! www.youtube.com##.sponsorblock-chapter-visible, .sponsorChapterText, span#chapterVote
+
+! Left controls: Replay & Next buttons
+www.youtube.com##.ytp-left-controls > .ytp-prev-button, .ytp-left-controls > .ytp-next-button
+
+! Paid promotion overlay at top-left
+www.youtube.com##.ytp-paid-content-overlay-link
+
+! Shorts in Search
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHost:has(span:has-text(Shorts))
