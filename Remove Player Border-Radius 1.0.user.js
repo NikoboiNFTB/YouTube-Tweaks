@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         YouTube Remove Player Border-Radius
+// @name         Remove Player Border-Radius
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks/
 // @version      1.0
 // @description  Removes the rounded border from YouTube player. give the player its sharp corners back.
