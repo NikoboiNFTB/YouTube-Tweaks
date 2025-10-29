@@ -10,7 +10,7 @@ www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHost:has(span:has-tex
 www.youtube.com##chapterVote, #sponsorTimesDownvoteButtonsContainerUpvoteChapter, #sponsorTimesDownvoteButtonsContainerDownvoteChapter
 
 ! SponsorBlock: "Skip to highlight?"
-www.youtube.com##.skipButtonControlBarContainer
+! www.youtube.com##.skipButtonControlBarContainer
 
 ! Replay, Next and Volume buttons
 www.youtube.com##.ytp-left-controls > .ytp-prev-button, .ytp-left-controls > .ytp-next-button, .ytp-left-controls > .ytp-volume-area
