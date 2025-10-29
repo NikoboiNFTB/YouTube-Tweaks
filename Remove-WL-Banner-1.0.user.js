@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Remove WL Banner
+// @name         YouTube - Remove WL Banner
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks/
 // @version      1.0
 // @description  Removes the Watch Later playlist banner and aligns videos fully to the left on the Watch Later page.
