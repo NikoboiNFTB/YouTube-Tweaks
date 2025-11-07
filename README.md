@@ -17,6 +17,9 @@ This repository contains several user scripts designed to tweak YouTube's interf
 3. **Remove WL Banner ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Remove-WL-Banner-1.0.user.js))**
    - Removes the "Watch Later" playlist banner and fully aligns videos to the left on the Watch Later page.
 
+4. **Add Watch Later List ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Add-Watch-Later-List-1.0.user.js))**
+   - Adds the Watch Later menu next to all videos, not just the ones clicked from Watch Later.
+
 ### uBlock Origin Blocklist
 
 The repository also includes a blocklist for uBlock Origin to block various YouTube UI elements, such as:
