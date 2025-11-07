@@ -32,3 +32,6 @@ www.youtube.com###expandable-metadata
 
 ! Featured channel thumbnails in suggestions/side panels
 ! ||i.ytimg.com/an/*/featured_channel.jpg$image
+
+! Video title in full-screen
+www.youtube.com##.ytp-overlay-top-left
