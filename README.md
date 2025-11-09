@@ -20,6 +20,9 @@ This repository contains several user scripts designed to tweak YouTube's interf
 4. **Add Watch Later List ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Add-Watch-Later-List-1.0.user.js))**
    - Adds the Watch Later menu next to all videos, not just the ones clicked from Watch Later.
 
+5. **Home Button = Watch Later ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Home-Button-WL-1.0.user.js))**
+   - Makes the Home button direct to the Watch Later playlist rather than YouTube home page.
+
 ### uBlock Origin Blocklist
 
 The repository also includes a blocklist for uBlock Origin to block various YouTube UI elements, such as:
