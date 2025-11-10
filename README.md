@@ -6,7 +6,7 @@ A collection of user scripts and a uBlock Origin blocklist to enhance your YouTu
 
 This repository contains several user scripts designed to tweak YouTube's interface and functionality. These scripts can be used with Tampermonkey or other compatible user script managers. Additionally, there's a uBlock Origin blocklist to block various elements from YouTube.
 
-### Scripts Included
+### Scripts Included (in order of creation)
 
 1. **Move Chapters Above Playlist ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Move-Chapters-Above-Playlist-1.8.user.js))**
    - Moves YouTube's video chapters above the playlist in the video player for easier access.
