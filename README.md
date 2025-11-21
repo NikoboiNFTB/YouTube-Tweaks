@@ -11,7 +11,7 @@ This repository contains several user scripts designed to tweak YouTube's interf
 1. **Move Chapters Above Playlist ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Move-Chapters-Above-Playlist-1.8.user.js))**
    - Moves YouTube's video chapters above the playlist in the video player for easier access.
 
-2. **Un-Rounded Player ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Square-Player-1.2.user.js))**
+2. **Un-Rounded Player ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Square-Player-1.3.user.js)))**
    - Removes the rounded borders around the YouTube player and restores sharp corners.
 
 3. **Remove WL Banner ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Remove-WL-Banner-1.0.user.js))**
