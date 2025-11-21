@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube - Un-Rounded Player
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks/
-// @version      1.1
+// @version      1.2
 // @description  Removes rounded borders from the main YouTube player element (#ytd-player).
 // @author       Nikoboi
 // @match        https://www.youtube.com/watch
