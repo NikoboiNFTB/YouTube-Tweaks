@@ -14,7 +14,7 @@ This repository contains several user scripts designed to tweak YouTube's interf
 2. **Un-Rounded Player ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Square-Player-1.4.user.js))**
    - Removes the rounded borders around the YouTube player and restores sharp corners.
 
-3. **Square Thumbnails ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Square-Thumbnails-1.0.user.js))**
+3. **Square Thumbnails ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Square-Thumbnails-1.1.user.js))**
    - Makes thumbnails square.
 
 4. **Remove WL Banner ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Remove-WL-Banner-1.0.user.js))**
