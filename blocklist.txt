@@ -1,13 +1,17 @@
 ! --- YouTube Filters by Nikoboi ---
 
+! Posts in Home Feed
+youtube.com##ytd-rich-section-renderer.style-scope
+youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
+
+! Shorts in Search
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHost:has(span:has-text(Shorts))
+
 ! Channel watermark
 www.youtube.com##.branding-img
 
 ! Share
 youtube.com##yt-button-view-model.ytd-menu-renderer
-
-! Shorts in Search
-www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHost:has(span:has-text(Shorts))
 
 ! Replay, Next and Volume buttons
 www.youtube.com##.ytp-left-controls > .ytp-prev-button, .ytp-left-controls > .ytp-next-button, .ytp-left-controls > .ytp-volume-area
