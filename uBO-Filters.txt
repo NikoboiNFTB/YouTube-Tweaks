@@ -1,16 +1,13 @@
-! --- YouTube UI & overlays cleanup ---
+! --- YouTube Filters by Nikoboi ---
 
-! Paid promotion overlay at top-left when starting a video
-www.youtube.com##.ytp-paid-content-overlay-link
+! Channel watermark
+www.youtube.com##.branding-img
+
+! Share
+youtube.com##yt-button-view-model.ytd-menu-renderer
 
 ! Shorts in Search
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHost:has(span:has-text(Shorts))
-
-! SponsorBlock: Upvote or downvote chapters
-www.youtube.com##chapterVote, #sponsorTimesDownvoteButtonsContainerUpvoteChapter, #sponsorTimesDownvoteButtonsContainerDownvoteChapter
-
-! SponsorBlock: "Skip to highlight?"
-! www.youtube.com##.skipButtonControlBarContainer
 
 ! Replay, Next and Volume buttons
 www.youtube.com##.ytp-left-controls > .ytp-prev-button, .ytp-left-controls > .ytp-next-button, .ytp-left-controls > .ytp-volume-area
@@ -27,11 +24,17 @@ www.youtube.com##.ytp-overlay-top-right
 ! More videos (v)
 www.youtube.com##button[aria-label="More videos"]
 
-! AI Summary
-www.youtube.com###expandable-metadata
-
-! Featured channel thumbnails in suggestions/side panels
-! ||i.ytimg.com/an/*/featured_channel.jpg$image
-
 ! Video title in full-screen
 www.youtube.com##.ytp-overlay-top-left
+
+! AI Summary
+! www.youtube.com###expandable-metadata
+
+! Paid promotion overlay at top-left when starting a video
+! www.youtube.com##.ytp-paid-content-overlay-link
+
+! SponsorBlock: Upvote or downvote chapters
+! www.youtube.com##chapterVote, #sponsorTimesDownvoteButtonsContainerUpvoteChapter, #sponsorTimesDownvoteButtonsContainerDownvoteChapter
+
+! SponsorBlock: "Skip to highlight?"
+! www.youtube.com##.skipButtonControlBarContainer
