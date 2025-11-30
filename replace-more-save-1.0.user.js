@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         YouTube - More -> Save
+// @name         YouTube - More = Save
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks
 // @version      1.0
 // @author       Nikoboi

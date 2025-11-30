@@ -26,6 +26,9 @@ This repository contains several user scripts designed to tweak YouTube's interf
 6. **Home Button = Watch Later ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/Home-Button-WL-1.0.user.js))**
    - Makes the Home button direct to the Watch Later playlist rather than YouTube home page.
 
+7. **More = Save ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/replace-more-save-1.0.user.js))**
+   - Makes the More button into a Save button on YouTube video pages.
+
 ### uBlock Origin Blocklist
 
 The repository also includes a blocklist for uBlock Origin to block various YouTube UI elements, such as:
