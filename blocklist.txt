@@ -10,11 +10,17 @@ www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHost:has(span:has-tex
 ! Channel watermark
 www.youtube.com##.branding-img
 
+! Verified Badge
+www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-shape-style-type-verified-artist.badge-shape
+
 ! Share
 youtube.com##yt-button-view-model.ytd-menu-renderer
 
 ! Replay, Next and Volume buttons
 www.youtube.com##.ytp-left-controls > .ytp-prev-button, .ytp-left-controls > .ytp-next-button, .ytp-left-controls > .ytp-volume-area
+
+! "Watch *movie* on YouTube"
+www.youtube.com###offer-module
 
 ! The game and category info below the descriptions (hopefully only that)
 www.youtube.com##.ytd-rich-metadata-row-renderer
@@ -31,14 +37,18 @@ www.youtube.com##button[aria-label="More videos"]
 ! Video title in full-screen
 www.youtube.com##.ytp-overlay-top-left
 
+! SponsorBlock: Chapter Vote
+www.youtube.com###chapterVote
+
 ! AI Summary
 ! www.youtube.com###expandable-metadata
 
 ! Paid promotion overlay at top-left when starting a video
 ! www.youtube.com##.ytp-paid-content-overlay-link
 
-! SponsorBlock: Upvote or downvote chapters
-! www.youtube.com##chapterVote, #sponsorTimesDownvoteButtonsContainerUpvoteChapter, #sponsorTimesDownvoteButtonsContainerDownvoteChapter
-
 ! SponsorBlock: "Skip to highlight?"
 ! www.youtube.com##.skipButtonControlBarContainer
+
+! Nov 24, 2025 https://www.tiktok.com
+www.tiktok.com##.e1uvg3ki3.css-jw2lbj-5e6d46e3--DivActionBarContainer
+
