@@ -10,6 +10,9 @@ www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHost:has(span:has-tex
 ! Channel watermark
 www.youtube.com##.branding-img
 
+! "Join"
+www.youtube.com###sponsor-button
+
 ! Verified Badge
 www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-shape-style-type-verified-artist.badge-shape
 
@@ -24,6 +27,9 @@ www.youtube.com###offer-module
 
 ! The game and category info below the descriptions (hopefully only that)
 www.youtube.com##.ytd-rich-metadata-row-renderer
+
+! Voice Search Button
+www.youtube.com###voice-search-button
 
 ! Fullscreen Bottom-Right: Like, Dislike, Comments and Share
 www.youtube.com##.ytp-overlay-bottom-right
@@ -51,4 +57,3 @@ www.youtube.com###chapterVote
 
 ! Nov 24, 2025 https://www.tiktok.com
 www.tiktok.com##.e1uvg3ki3.css-jw2lbj-5e6d46e3--DivActionBarContainer
-
