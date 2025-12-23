@@ -55,5 +55,6 @@ www.youtube.com###chapterVote
 ! SponsorBlock: "Skip to highlight?"
 ! www.youtube.com##.skipButtonControlBarContainer
 
-! Nov 24, 2025 https://www.tiktok.com
-www.tiktok.com##.e1uvg3ki3.css-jw2lbj-5e6d46e3--DivActionBarContainer
+! Bloatware service worker
+||www.youtube.com/s/player/*/worker/echo-worker.js$script,domain=www.youtube.com
+
