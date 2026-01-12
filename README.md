@@ -1,10 +1,10 @@
 # YouTube-Tweaks
 
-A collection of user scripts and a uBlock Origin blocklist to enhance your YouTube browsing experience by customizing the interface and removing unwanted features. Also hides some of SponsorBlock's clutter.
+A collection of userscripts and a uBlock Origin blocklist to enhance your YouTube browsing experience by customizing the interface and removing unwanted features. Also hides some of SponsorBlock's clutter.
 
 ## Overview
 
-This repository contains several user scripts designed to tweak YouTube's interface and functionality. These scripts can be used with Tampermonkey or other compatible user script managers. Additionally, there's a uBlock Origin blocklist to block various elements from YouTube.
+This repository contains several user scripts designed to tweak YouTube's interface and functionality. These scripts can be used with Violentmonkey or other compatible user script managers. Additionally, there's a uBlock Origin blocklist to hide various elements from YouTube.
 
 ### Scripts Included (in order of creation)
 
@@ -33,7 +33,6 @@ This repository contains several user scripts designed to tweak YouTube's interf
 
 The repository also includes a blocklist for uBlock Origin to block various YouTube UI elements, such as:
 
-- Paid promotion overlays
 - Shorts in search results
 - SponsorBlock chapter upvote/downvote buttons
 - "Skip to highlight?" buttons
