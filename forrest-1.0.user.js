@@ -5,6 +5,7 @@
 // @description  Remove every video on @qnaline/videos that does NOT include "Forrest Valkai" in the title.
 // @author       Nikoboi
 // @match        https://www.youtube.com/@qnaline/videos
+// @match        https://www.youtube.com/@calltheline/videos
 // @grant        none
 // @icon         https://www.youtube.com/s/desktop/ab67e92c/img/favicon_144x144.png
 // ==/UserScript==
