@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         YouTube - Filter Specific Names
+// @name         YouTube - The Line Filter
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks
 // @version      1.1
 // @description  Show only videos with specific names in the title on selected channels.
