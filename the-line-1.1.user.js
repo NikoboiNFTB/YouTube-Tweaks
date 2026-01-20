@@ -14,7 +14,7 @@
     'use strict';
 
     // List all names you want to allow here
-    const REQUIRED_TEXT = ['Forrest Valkai', 'Jimmy Snow', 'Matt Dillahunty'];
+    const REQUIRED_TEXT = ['Forrest Valkai', 'Jimmy Snow', 'Matt Dillahunty', 'Seth Andrews'];
 
     function nukeRenderer(item, title) {
         console.log('Nuking video:', title);
