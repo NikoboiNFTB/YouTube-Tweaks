@@ -1,3 +1,4 @@
+
 ! --- YouTube Filters by Nikoboi ---
 
 ! Posts in Home Feed
@@ -58,3 +59,4 @@ www.youtube.com###chapterVote
 ! Bloatware service worker
 ||www.youtube.com/s/player/*/worker/echo-worker.js$script,domain=www.youtube.com
 
+! --- YouTube Filters by Nikoboi ---
