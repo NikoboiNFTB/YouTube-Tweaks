@@ -8,25 +8,25 @@ This repository contains several user scripts designed to tweak YouTube's interf
 
 ### Scripts Included (in order of creation)
 
-1. **Move Chapters Above Playlist ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/move-chapters-1.8.user.js))**
+1. **Move Chapters Above Playlist ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/move-chapters.user.js))**
    - Moves YouTube's video chapters above the playlist in the video player for easier access.
 
-2. **Un-Rounded Player ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/square-player-1.4.user.js))**
+2. **Un-Rounded Player ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/square-player.user.js))**
    - Removes the rounded borders around the YouTube player and restores sharp corners.
 
-3. **Square Thumbnails ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/square-thumbnails-1.1.user.js))**
+3. **Square Thumbnails ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/square-thumbnails.user.js))**
    - Makes thumbnails square.
 
-4. **Remove WL Banner ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/remove-wl-banner-1.0.user.js))**
+4. **Remove WL Banner ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/remove-wl-banner.user.js))**
    - Removes the "Watch Later" playlist banner and fully aligns videos to the left on the Watch Later page.
 
-5. **Add Watch Later List ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/add-wl-1.0.user.js))**
+5. **Add Watch Later List ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/add-wl.user.js))**
    - Adds the Watch Later menu next to all videos, not just the ones clicked from Watch Later.
 
-6. **Home Button = Watch Later ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/home-button-wl-1.0.user.js))**
+6. **Home Button = Watch Later ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/home-button-wl.user.js))**
    - Makes the Home button direct to the Watch Later playlist rather than YouTube home page.
 
-7. **More = Save ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/more-save-1.0.user.js))**
+7. **More = Save ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/more-save.user.js))**
    - Makes the More button into a Save button on YouTube video pages.
 
 ### uBlock Origin Blocklist
@@ -72,6 +72,12 @@ The uBlock Origin blocklist will block various elements from the YouTube UI as d
 
 Feel free to fork this repository and submit issues or pull requests if you have any suggestions or improvements. If you encounter any bugs or have feature requests, please open an issue.
 
+## Credits
+
+Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
+
+Script logic fine-tuned with [**ChatGPT**](https://chatgpt.com/)
+
 ## License
 
-This repository is licensed under the [GPLv3 License](LICENSE).
+This project is licenced under the GNU General Public License V3. See [LICENSE](LICENSE) for details.
