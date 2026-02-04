@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         YouTube - Add Watch Later List
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks
+// @downloadURL  https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/add-wl.user.js
 // @version      1.0
 // @description  Automatically add &list=WL&index=1 to YouTube video URLs if missing.
 // @author       Nikoboi

@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         YouTube - More = Save
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks
+// @downloadURL  https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/more-save.user.js
 // @version      1.0
 // @author       Nikoboi
 // @description  Replaces "More" with "Save" on video pages.

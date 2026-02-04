@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         YouTube - Move Chapters Above Playlist
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks/
+// @downloadURL  https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/move-chapters.user.js
 // @version      1.8
 // @description  YouTube's new UI fucked it up. Incompetent fools. Probably AI generated code.
 // @author       Nikoboi

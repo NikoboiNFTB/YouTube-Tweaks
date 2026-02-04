@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         YouTube - Un-Rounded Thumbnails
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks/
+// @downloadURL  https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/square-thumbnails.user.js
 // @version      1.1
 // @description  Removes rounded borders YouTube thumbnails (.ytThumbnailViewModelLarge).
 // @author       Nikoboi
