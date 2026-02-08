@@ -2,9 +2,10 @@
 // @name         YouTube - The Line Filter
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks
 // @downloadURL  https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/the-line.user.js
-// @version      1.6
+// @version      1.5
 // @description  Filter The Line videos by allowed names on both channel pages and subscriptions.
 // @author       Nikoboi
+// @match        https://www.youtube.com/
 // @match        https://www.youtube.com/@qnaline/videos
 // @match        https://www.youtube.com/@calltheline/videos
 // @match        https://www.youtube.com/feed/subscriptions
