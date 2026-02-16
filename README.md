@@ -6,7 +6,7 @@ A collection of userscripts and a uBlock Origin blocklist to enhance your YouTub
 
 This repository contains several user scripts designed to tweak YouTube's interface and functionality. These scripts can be used with Violentmonkey or other compatible user script managers. Additionally, there's a uBlock Origin blocklist to hide various elements from YouTube.
 
-### Scripts Included (in order of creation)
+## Scripts Included (in order of creation)
 
 1. **Move Chapters Above Playlist ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/move-chapters.user.js))**
    - Moves YouTube's video chapters above the playlist in the video player for easier access.
@@ -29,17 +29,27 @@ This repository contains several user scripts designed to tweak YouTube's interf
 7. **More = Save ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/more-save.user.js))**
    - Makes the More button into a Save button on YouTube video pages.
 
-### uBlock Origin Blocklist
+## Blocklist
 
-The repository also includes a blocklist for uBlock Origin to block various YouTube UI elements, such as:
+Blocks various annoyances. Here's the source link:
 
-- Shorts in search results
-- SponsorBlock chapter upvote/downvote buttons
-- "Skip to highlight?" buttons
-- Useless video controls in fullscreen mode
-- And more...
+```text
+https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/blocklist.txt
+```
 
-To use the blocklist, simply copy the contents from the `blocklist.txt` file and import it into your uBlock Origin settings.
+### uBlock Origin add tutorial
+
+1. Select extension in the top-right.
+
+2. Click the three gears to open the settings.
+
+3. Under "Filter lists" at the top, scroll down to the bottom.
+
+4. Select "Import..."
+
+5. Paste the URL linked above.
+
+6. Hit "Apply changes" at the top.
 
 ## Installation Guide
 

@@ -1,41 +1,76 @@
-! --- YouTube Filters by Nikoboi --- !
+! Title: YouTube Filters by Nikoboi
+! Description: Removes premium ads.
+! Homepage: https://nikoboi.dev/
+! Author: Nikoboi
+! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/YouTube-Tweaks/blob/main/LICENSE
+! Source: https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/blocklist.txt
+! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
+! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
+! Last updated: 2026-02-16 11:51 UTC+02:00
+! Expires: 7 days
+
+! ========================================
+! Start of Filters
+! ========================================
+
 ! Posts in Home Feed
 youtube.com##ytd-rich-section-renderer.style-scope
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
+
 ! Shorts in Search
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHost:has(span:has-text(Shorts))
+
 ! Channel watermark
 www.youtube.com##.branding-img
+
 ! "Join"
 www.youtube.com###sponsor-button
+
 ! Verified Badge
 www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-shape-style-type-verified-artist.badge-shape
+
 ! Share
 youtube.com##yt-button-view-model.ytd-menu-renderer
+
 ! Replay, Next and Volume buttons
 www.youtube.com##.ytp-left-controls > .ytp-prev-button, .ytp-left-controls > .ytp-next-button, .ytp-left-controls > .ytp-volume-area
+
 ! "Watch *movie* on YouTube"
 www.youtube.com###offer-module
+
 ! The game and category info below the descriptions (hopefully only that)
 www.youtube.com##.ytd-rich-metadata-row-renderer
+
 ! Voice Search Button
 www.youtube.com###voice-search-button
+
 ! Fullscreen Bottom-Right: Like, Dislike, Comments and Share
 www.youtube.com##.ytp-overlay-bottom-right
+
 ! Fullscreen Top-Right: Playlist button
 www.youtube.com##.ytp-overlay-top-right
+
 ! More videos (v)
 www.youtube.com##button[aria-label="More videos"]
+
 ! Video title in full-screen
 www.youtube.com##.ytp-overlay-top-left
+
 ! SponsorBlock: Chapter Vote
 www.youtube.com###chapterVote
+
 ! AI Summary
 ! www.youtube.com###expandable-metadata
+
 ! Paid promotion overlay at top-left when starting a video
 ! www.youtube.com##.ytp-paid-content-overlay-link
+
 ! SponsorBlock: "Skip to highlight?"
 ! www.youtube.com##.skipButtonControlBarContainer
+
 ! Bloatware service worker
 ||www.youtube.com/s/player/*/worker/echo-worker.js$script,domain=www.youtube.com
-! --- YouTube Filters by Nikoboi --- !
+
+! ========================================
+! End of Filters
+! ========================================
