@@ -9,25 +9,25 @@ This repository contains several user scripts designed to tweak YouTube's interf
 ## Scripts Included
 
 1. **Move Chapters Above Playlist ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/move-chapters.user.js))**
-  - Moves YouTube's video chapters above the playlist in the video player for easier access.
+   - Moves YouTube's video chapters above the playlist in the video player for easier access.
 
 2. **Un-Rounded Player ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/square-player.user.js))**
-  - Removes the rounded borders around the YouTube player and restores sharp corners.
+   - Removes the rounded borders around the YouTube player and restores sharp corners.
 
 3. **Square Thumbnails ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/square-thumbnails.user.js))**
-  - Makes thumbnails square.
+   - Makes thumbnails square.
 
 4. **Remove WL Banner ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/remove-wl-banner.user.js))**
-  - Removes the "Watch Later" playlist banner and fully aligns videos to the left on the Watch Later page.
+   - Removes the "Watch Later" playlist banner and fully aligns videos to the left on the Watch Later page.
 
 5. **Add Watch Later List ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/add-wl.user.js))**
-  - Adds the Watch Later menu next to all videos, not just the ones clicked from Watch Later.
+   - Adds the Watch Later menu next to all videos, not just the ones clicked from Watch Later.
 
 6. **Home Button = Watch Later ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/home-button-wl.user.js))**
-  - Makes the Home button direct to the Watch Later playlist rather than YouTube home page.
+   - Makes the Home button direct to the Watch Later playlist rather than YouTube home page.
 
 7. **More = Save ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/more-save.user.js))**
-  - Makes the More button into a Save button on YouTube video pages.
+   - Makes the More button into a Save button on YouTube video pages.
 
 ## Blocklist
 
@@ -58,15 +58,15 @@ To install the user scripts:
 1. **Install Tampermonkey**: If you don't already have it, download and install [Violentmonkey](https://violentmonkey.github.io/) for your browser.
 
 2. **Add the User Scripts**:
-  - Click on the installation links for the scripts you want.
-  - Tampermonkey should prompt you to install the script. Click "Install" to proceed.
-  
+   - Click on the installation links for the scripts you want.
+   - Tampermonkey should prompt you to install the script. Click "Install" to proceed.
+
 3. **Install the uBlock Origin Blocklist**:
-  - Copy the filter list [here](https://raw.githubusercontent.com/NikoboiNFTB/YouTube-Tweaks/main/blocklist.txt).
-  - Open your uBlock Origin dashboard.
-  - Go to "My filters" tab.
-  - Paste the contents there, tweak if needed/wanted.
-  - Apply
+   - Copy the filter list [here](https://raw.githubusercontent.com/NikoboiNFTB/YouTube-Tweaks/main/blocklist.txt).
+   - Open your uBlock Origin dashboard.
+   - Go to "My filters" tab.
+   - Paste the contents there, tweak if needed/wanted.
+   - Apply
 
 ### Usage
 
