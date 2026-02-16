@@ -29,6 +29,16 @@ This repository contains several user scripts designed to tweak YouTube's interf
 7. **More = Save ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/more-save.user.js))**
    - Makes the More button into a Save button on YouTube video pages.
 
+### Installation Guide
+
+To install the userscripts:
+
+1. **Install Violentmonkey**: If you don't already have it, install [Violentmonkey](https://violentmonkey.github.io/) for your browser. Or [Tampermonkey](https://www.tampermonkey.net/) if you're on Chromium.
+
+2. **Add the Userscripts**:
+   - Click on the installation links for the scripts you want.
+   - Your userscript manager will prompt you to install the script. Click "Install" to proceed.
+
 ## Blocklist
 
 Blocks various annoyances. Here's the source link:
@@ -51,32 +61,9 @@ https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/blocklist.txt
 
 6. Hit "Apply changes" at the top.
 
-## Installation Guide
-
-To install the user scripts:
-
-1. **Install Tampermonkey**: If you don't already have it, download and install [Violentmonkey](https://violentmonkey.github.io/) for your browser.
-
-2. **Add the User Scripts**:
-   - Click on the installation links for the scripts you want.
-   - Tampermonkey should prompt you to install the script. Click "Install" to proceed.
-
-3. **Install the uBlock Origin Blocklist**:
-   - Copy the filter list [here](https://raw.githubusercontent.com/NikoboiNFTB/YouTube-Tweaks/main/blocklist.txt).
-   - Open your uBlock Origin dashboard.
-   - Go to "My filters" tab.
-   - Paste the contents there, tweak if needed/wanted.
-   - Apply
-
 ### Usage
 
-Once you've installed the user scripts and added the uBlock Origin blocklist, your YouTube experience should be enhanced according to the features listed above.
-
-- The **Move Chapters Above Playlist** script will move chapters above the playlist.
-- The **Un-Rounded Player** script will change the video player to have sharp corners instead of rounded ones.
-- The **Remove WL Banner** script will remove the "Watch Later" playlist banner and left-align videos.
-
-The uBlock Origin blocklist will block various elements from the YouTube UI as described in the blocklist section.
+Once you've installed the user scripts and added the uBlock Origin blocklist, your YouTube experience should be enhanced as per the features listed above.
 
 ## Contributing
 
