@@ -6,7 +6,7 @@
 ! Source: https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
-! Last updated: 2026-02-16 11:51 UTC+02:00
+! Last updated: 2026-02-26 16:50 UTC+02:00
 ! Expires: 7 days
 
 ! ========================================
@@ -32,8 +32,14 @@ www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-shape-style-typ
 ! Share
 youtube.com##yt-button-view-model.ytd-menu-renderer
 
-! Replay, Next and Volume buttons
-www.youtube.com##.ytp-left-controls > .ytp-prev-button, .ytp-left-controls > .ytp-next-button, .ytp-left-controls > .ytp-volume-area
+! Replay button
+www.youtube.com##.ytp-left-controls > .ytp-prev-button
+
+! Next button
+www.youtube.com##.ytp-left-controls > .ytp-next-button
+
+! Volume
+! www.youtube.com##.ytp-left-controls > .ytp-volume-area
 
 ! "Watch *movie* on YouTube"
 www.youtube.com###offer-module
