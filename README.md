@@ -29,6 +29,9 @@ This repository contains several user scripts designed to tweak YouTube's interf
 7. **More = Save ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/more-save.user.js))**
    - Makes the More button into a Save button on YouTube video pages.
 
+7. **Disable Timestamp Scroll Up ([install](https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/timestamp-no-scroll.user.js))**
+   - Makes the More button into a Save button on YouTube video pages.
+
 ### Installation Guide
 
 To install the userscripts:
