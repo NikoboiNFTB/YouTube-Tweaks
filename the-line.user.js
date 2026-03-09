@@ -17,9 +17,7 @@
 
     const REQUIRED_TEXT = [
         'Forrest Valkai',
-        'Jimmy Snow',
-        'Matt Dillahunty',
-        'Seth Andrews'
+        'Jimmy Snow'
     ];
 
     const THE_LINE_CHANNELS = [
