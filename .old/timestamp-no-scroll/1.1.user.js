@@ -2,7 +2,7 @@
 // @name         YouTube - Disable Timestamp Scroll Up
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks
 // @downloadURL  https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/timestamp-no-scroll.user.js
-// @version      1.2
+// @version      1.1
 // @description  Prevents timestamp clicks from scrolling all the way up.
 // @author       Nikoboi
 // @icon         https://www.youtube.com/s/desktop/ab67e92c/img/favicon_144x144.png
@@ -18,17 +18,13 @@
         return (
             a instanceof HTMLAnchorElement &&
             a.closest('ytd-comment-thread-renderer') &&
-            new URL(a.href).searchParams.has("t") &&
+            a.href.includes('&t=') &&
             /^\d{1,2}:\d{2}(:\d{2})?$/.test(a.textContent.trim())
         );
     }
 
     function parseTimeFromURL(url) {
-        const u = new URL(url);
-        const t = u.searchParams.get("t");
-        if (!t) return null;
-
-        const match = t.match(/^(\d+)s?$/);
+        const match = url.match(/[?&]t=(\d+)s?/);
         return match ? parseInt(match[1], 10) : null;
     }
 
