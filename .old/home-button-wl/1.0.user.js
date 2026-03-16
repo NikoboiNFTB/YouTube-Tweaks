@@ -2,11 +2,11 @@
 // @name         YouTube - Home Button = Watch Later
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks
 // @downloadURL  https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/home-button-wl.user.js
-// @version      1.1
+// @version      1.0
 // @description  Changes the YouTube home button to go to your Watch Later playlist instead.
 // @author       Nikoboi
 // @icon         https://www.youtube.com/s/desktop/ab67e92c/img/favicon_144x144.png
-// @match        *://*.youtube.com/*
+// @match        https://www.youtube.com/*
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==

@@ -2,10 +2,10 @@
 // @name         YouTube - More = Save
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks
 // @downloadURL  https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/more-save.user.js
-// @version      1.1
+// @version      1.0
 // @author       Nikoboi
 // @description  Replaces "More" with "Save" on video pages.
-// @match        *://*.youtube.com/*
+// @match        https://www.youtube.com/*
 // @icon         https://www.youtube.com/s/desktop/ab67e92c/img/favicon_144x144.png
 // @run-at       document-end
 // @grant        none
