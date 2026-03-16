@@ -47,7 +47,7 @@ To install the userscripts:
 Blocks various annoyances. Here's the source link:
 
 ```text
-https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/blocklist.txt
+https://youtube.nikoboi.dev/blocklist.txt
 ```
 
 ### uBlock Origin add tutorial
