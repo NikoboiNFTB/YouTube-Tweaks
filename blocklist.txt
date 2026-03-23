@@ -1,12 +1,12 @@
 ! Title: YouTube Filters by Nikoboi
-! Description: Removes premium ads.
+! Description: Removes various annoyances.
 ! Homepage: https://nikoboi.dev/
 ! Author: Nikoboi
 ! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/YouTube-Tweaks/blob/main/LICENSE
 ! Source: https://youtube.nikoboi.dev/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
-! Last updated: 2026-03-23 15:59 UTC+02:00
+! Last updated: 2026-03-23 16:17 UTC+02:00
 ! Expires: 7 days
 
 ! ========================================
@@ -14,6 +14,7 @@
 ! ========================================
 
 # Settings entries. Read the next, they say what they are.
+youtube.com##button.ytp-size-button[aria-label*="Theater mode"]
 youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Sleep timer))
 youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Stable Volume))
 youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Ambient mode))
@@ -71,7 +72,7 @@ www.youtube.com##.ytp-overlay-top-left
 www.youtube.com###chapterVote
 
 ! AI Summary
-! www.youtube.com###expandable-metadata
+www.youtube.com###expandable-metadata
 
 ! Paid promotion overlay at top-left when starting a video
 ! www.youtube.com##.ytp-paid-content-overlay-link
