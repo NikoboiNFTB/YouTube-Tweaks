@@ -6,12 +6,17 @@
 ! Source: https://youtube.nikoboi.dev/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
-! Last updated: 2026-02-24 21:22 UTC+02:00
+! Last updated: 2026-03-23 15:59 UTC+02:00
 ! Expires: 7 days
 
 ! ========================================
 ! Start of Filters
 ! ========================================
+
+# Settings entries. Read the next, they say what they are.
+youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Sleep timer))
+youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Stable Volume))
+youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Ambient mode))
 
 ! Posts in Home Feed
 youtube.com##ytd-rich-section-renderer.style-scope
