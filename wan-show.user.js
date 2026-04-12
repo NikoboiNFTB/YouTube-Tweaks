@@ -2,7 +2,7 @@
 // @name         YouTube - WAN Show Filter
 // @namespace    https://github.com/NikoboiNFTB/YouTube-Tweaks
 // @downloadURL  https://github.com/NikoboiNFTB/YouTube-Tweaks/raw/refs/heads/main/wan-show.user.js
-// @version      1.0
+// @version      1.1
 // @description  Filters so that only the WAN Show is displayed on the WAN Show channel, disregarding the clips.
 // @author       Nikoboi
 // @match        https://www.youtube.com/@WANShow/videos
@@ -19,8 +19,7 @@
     ];
 
     const TARGET_CHANNELS = [
-        '/@WANShow',
-        '/@LinusTechTips'
+        '/@WANShow'
     ];
 
     const IS_SUBSCRIPTIONS =
