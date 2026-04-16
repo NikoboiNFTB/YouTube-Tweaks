@@ -6,7 +6,7 @@
 ! Source: https://youtube.nikoboi.dev/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
-! Last updated: 2026-04-16 21:17 UTC+03:00
+! Last updated: 2026-04-16 22:41 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
@@ -18,6 +18,9 @@ youtube.com##yt-list-item-view-model:has(span:has-text("Add to queue"))
 youtube.com##yt-download-list-item-view-model
 youtube.com##yt-list-item-view-model:has(span:has-text("Share"))
 youtube.com##yt-list-item-view-model:has(span:has-text("Hide"))
+
+! Members only videos
+youtube.com##ytd-rich-item-renderer:has(div:has-text("Members only"))
 
 ! Settings entries. Read the next, they say what they are.
 youtube.com##button.ytp-size-button[aria-label*="Theater mode"]
