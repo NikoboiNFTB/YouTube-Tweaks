@@ -6,15 +6,12 @@
 ! Source: https://youtube.nikoboi.dev/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
-! Last updated: 2026-04-16 20:55 UTC+03:00
+! Last updated: 2026-04-16 21:17 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
 ! Start of Filters
 ! ========================================
-
-! Upcoming videos. They're not out yet, I don't care. I'll watch them when they're released.
-youtube.com##ytd-rich-item-renderer:has(div:has-text("Upcoming")):has(div:has-text("Notify me"))
 
 ! Add to queue, Download, Share and Hide in three dot menu.
 youtube.com##yt-list-item-view-model:has(span:has-text("Add to queue"))
@@ -89,6 +86,12 @@ www.youtube.com###expandable-metadata
 
 ! SponsorBlock: "Skip to highlight?"
 ! www.youtube.com##.skipButtonControlBarContainer
+
+! Upcoming videos. They're not out yet, I don't care. I'll watch them when they're released.
+youtube.com##ytd-rich-item-renderer:has(div:has-text("Upcoming")):has(div:has-text("Notify me"))
+
+! Past live streams, except for The Line. My blocklist bro.
+youtube.com##ytd-rich-item-renderer:has(span:has-text("Streamed")):has(span:has-text("ago")):not(:has(a:has-text("The Line")))
 
 ! Bloatware service worker
 ||www.youtube.com/s/player/*/worker/echo-worker.js$script,domain=www.youtube.com
