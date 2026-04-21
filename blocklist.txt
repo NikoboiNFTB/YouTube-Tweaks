@@ -93,8 +93,11 @@ www.youtube.com###expandable-metadata
 ! Upcoming videos. They're not out yet, I don't care. I'll watch them when they're released.
 youtube.com##ytd-rich-item-renderer:has(div:has-text("Upcoming")):has(div:has-text("Notify me"))
 
-! Past live streams, except for The Line. My blocklist bro.
-youtube.com##ytd-rich-item-renderer:has(span:has-text("Streamed")):has(span:has-text("ago")):not(:has(a:has-text("The Line")))
+! WAN Show clips
+youtube.com##ytd-rich-item-renderer:has(a:has-text("The WAN Show")):not(:has(span:has-text("WAN Show")))
+
+! Past live streams, except for The Line and WAN Show. My blocklist bro.
+youtube.com##ytd-rich-item-renderer:has(span:has-text("Streamed")):has(span:has-text("ago")):not(:has(a:has-text("The Line"), a:has-text("WAN Show")))
 
 ! Bloatware service worker
 ||www.youtube.com/s/player/*/worker/echo-worker.js$script,domain=www.youtube.com
