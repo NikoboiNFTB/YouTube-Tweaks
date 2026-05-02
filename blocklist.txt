@@ -6,7 +6,7 @@
 ! Source: https://youtube.nikoboi.dev/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
-! Last updated: 2026-04-21 09:38 UTC+03:00
+! Last updated: 2026-05-02 16:52 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
@@ -98,6 +98,9 @@ youtube.com##ytd-rich-item-renderer:has(a[href*="/@WANShow"]):not(:has(a.ytLocku
 
 ! Past live streams, except for The Line and WAN Show. My blocklist bro.
 youtube.com##ytd-rich-item-renderer:has(span:has-text("Streamed")):has(span:has-text("ago")):not(:has(a[href*="/@WANShow"], a[href*="/@qnaline"], a[href*="/@calltheline"]))
+
+! The Line except the ones with Forrest Valkai
+youtube.com##ytd-rich-item-renderer:has(a[href*="/@qnaline"], a[href*="/@calltheline"]):not(:has(a.ytLockupMetadataViewModelTitle:has-text("Forrest Valkai")))
 
 ! Bloatware service worker
 ||www.youtube.com/s/player/*/worker/echo-worker.js$script,domain=www.youtube.com
