@@ -6,7 +6,7 @@
 ! Source: https://youtube.nikoboi.dev/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
-! Last updated: 2026-05-02 16:52 UTC+03:00
+! Last updated: 2026-06-04 12:58 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
@@ -20,7 +20,7 @@ youtube.com##yt-list-item-view-model:has(span:has-text("Share"))
 youtube.com##yt-list-item-view-model:has(span:has-text("Hide"))
 
 ! Settings entries. Read the next, they say what they are.
-youtube.com##button.ytp-size-button[aria-label*="Theater mode"]
+! youtube.com##button.ytp-size-button[aria-label*="Theater mode"]
 youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Sleep timer))
 ! youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Stable Volume))
 youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Ambient mode))
