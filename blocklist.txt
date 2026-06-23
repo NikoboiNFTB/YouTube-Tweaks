@@ -6,7 +6,7 @@
 ! Source: https://youtube.nikoboi.dev/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
-! Last updated: 2026-06-04 12:58 UTC+03:00
+! Last updated: 2026-06-23 08:35 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
