@@ -96,8 +96,8 @@ youtube.com##ytd-rich-item-renderer:has(div:has-text("Upcoming")):has(div:has-te
 ! WAN Show clips
 youtube.com##ytd-rich-item-renderer:has(a[href*="/@WANShow"]):not(:has(a.ytLockupMetadataViewModelTitle:has-text("WAN Show")))
 
-! Past live streams, except for The Line and WAN Show. My blocklist bro.
-youtube.com##ytd-rich-item-renderer:has(span:has-text("Streamed")):has(span:has-text("ago")):not(:has(a[href*="/@WANShow"], a[href*="/@qnaline"], a[href*="/@calltheline"]))
+! Past live streams, except for the WAN Show. My blocklist bro.
+youtube.com##ytd-rich-item-renderer:has(span:has-text(Streamed)):has(span:has-text(ago)):not(:has(a[href*="/@WANShow"]))
 
 ! The Line except the ones with Forrest Valkai
 youtube.com##ytd-rich-item-renderer:has(a[href*="/@qnaline"], a[href*="/@calltheline"]):not(:has(a.ytLockupMetadataViewModelTitle:has-text("Forrest Valkai")))
