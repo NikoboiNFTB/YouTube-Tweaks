@@ -6,7 +6,7 @@
 ! Source: https://youtube.nikoboi.dev/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
-! Last updated: 2026-06-23 08:35 UTC+03:00
+! Last updated: 2026-06-24 10:47 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
@@ -94,7 +94,7 @@ youtube.com##ytd-rich-item-renderer:has(div:has-text("Members only"))
 youtube.com##ytd-rich-item-renderer:has(div:has-text("Upcoming")):has(div:has-text("Notify me"))
 
 ! WAN Show clips
-youtube.com##ytd-rich-item-renderer:has(a[href*="/@WANShow"]):not(:has(a.ytLockupMetadataViewModelTitle:has-text("WAN Show")))
+youtube.com##ytd-rich-item-renderer:has(a[href*="/@LMGClipsYT"]):not(:has(a.ytLockupMetadataViewModelTitle:has-text("WAN Show")))
 
 ! Past live streams, except for the WAN Show. My blocklist bro.
 youtube.com##ytd-rich-item-renderer:has(span:has-text(Streamed)):has(span:has-text(ago)):not(:has(a[href*="/@WANShow"]))
