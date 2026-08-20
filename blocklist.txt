@@ -1,12 +1,12 @@
 ! Title: YouTube Filters by Nikoboi
 ! Description: Removes various annoyances.
-! Homepage: https://nikoboi.dev/
+! Homepage: https://block.nikoboi.dev/
 ! Author: Nikoboi
-! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/YouTube-Tweaks/blob/main/LICENSE
-! Source: https://youtube.nikoboi.dev/blocklist.txt
-! Issues: https://github.com/NikoboiNFTB/YouTube-Tweaks/issues
-! Pull Requests: https://github.com/NikoboiNFTB/YouTube-Tweaks/pulls
-! Last updated: 2026-07-04 22:38 UTC+03:00
+! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/Blocklists/blob/main/LICENSE
+! Source: https://block.nikoboi.dev/list/www.youtube.com
+! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
+! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
+! Last updated: 2026-08-20 23:58 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
@@ -14,21 +14,21 @@
 ! ========================================
 
 ! Add to queue, Download, Share and Hide in three dot menu.
-youtube.com##yt-list-item-view-model:has(span:has-text("Add to queue"))
-youtube.com##yt-download-list-item-view-model
-youtube.com##yt-list-item-view-model:has(span:has-text("Share"))
-youtube.com##yt-list-item-view-model:has(span:has-text("Hide"))
+www.youtube.com##yt-list-item-view-model:has(span:has-text("Add to queue"))
+www.youtube.com##yt-download-list-item-view-model
+www.youtube.com##yt-list-item-view-model:has(span:has-text("Share"))
+www.youtube.com##yt-list-item-view-model:has(span:has-text("Hide"))
 
 ! Settings entries. Read the next, they say what they are.
-! youtube.com##button.ytp-size-button[aria-label*="Theater mode"]
-youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Sleep timer))
-! youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Stable Volume))
-youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Ambient mode))
-youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Voice boost))
+! www.youtube.com##button.ytp-size-button[aria-label*="Theater mode"]
+www.youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Sleep timer))
+! www.youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Stable Volume))
+www.youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Ambient mode))
+www.youtube.com##.ytp-menuitem:has(.ytp-menuitem-label:has-text(Voice boost))
 
 ! Posts in Home Feed
-youtube.com##ytd-rich-section-renderer.style-scope
-youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
+www.youtube.com##ytd-rich-section-renderer.style-scope
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
 
 ! Shorts in Search
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHost:has(span:has-text(Shorts))
@@ -43,7 +43,7 @@ www.youtube.com###sponsor-button
 www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-shape-style-type-verified-artist.badge-shape
 
 ! Share
-youtube.com##yt-button-view-model.ytd-menu-renderer
+www.youtube.com##yt-button-view-model.ytd-menu-renderer
 
 ! Replay button
 www.youtube.com##.ytp-left-controls > .ytp-prev-button
@@ -88,19 +88,19 @@ www.youtube.com###expandable-metadata
 ! www.youtube.com##.skipButtonControlBarContainer
 
 ! Members only videos
-youtube.com##ytd-rich-item-renderer:has(div:has-text("Members only"))
+www.youtube.com##ytd-rich-item-renderer:has(div:has-text("Members only"))
 
 ! Upcoming videos. They're not out yet, I don't care. I'll watch them when they're released.
-youtube.com##ytd-rich-item-renderer:has(div:has-text("Upcoming")):has(div:has-text("Notify me"))
+www.youtube.com##ytd-rich-item-renderer:has(div:has-text("Upcoming")):has(div:has-text("Notify me"))
 
 ! WAN Show clips
-youtube.com##ytd-rich-item-renderer:has(a[href*="/@LMGClipsYT"]):not(:has(a.ytLockupMetadataViewModelTitle:has-text("WAN Show")))
+www.youtube.com##ytd-rich-item-renderer:has(a[href*="/@LMGClipsYT"]):not(:has(a.ytLockupMetadataViewModelTitle:has-text("WAN Show")))
 
 ! Past live streams, except for the WAN Show. My blocklist bro.
-youtube.com##ytd-rich-item-renderer:has(span:has-text(Streamed)):has(span:has-text(ago)):not(:has(a[href*="/@WANShowYT"]))
+www.youtube.com##ytd-rich-item-renderer:has(span:has-text(Streamed)):has(span:has-text(ago)):not(:has(a[href*="/@WANShowYT"]))
 
 ! The Line except the ones with Forrest Valkai
-youtube.com##ytd-rich-item-renderer:has(a[href*="/@qnaline"], a[href*="/@calltheline"]):not(:has(a.ytLockupMetadataViewModelTitle:has-text("Forrest Valkai")))
+www.youtube.com##ytd-rich-item-renderer:has(a[href*="/@qnaline"], a[href*="/@calltheline"]):not(:has(a.ytLockupMetadataViewModelTitle:has-text("Forrest Valkai")))
 
 ! Bloatware service worker
 ||www.youtube.com/s/player/*/worker/echo-worker.js$script,domain=www.youtube.com
